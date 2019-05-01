@@ -4,7 +4,7 @@ This code calculates a nuclear schottky anomaly in heat capacity from the electr
 
 For a theory description and examples of use, please see the tutorial Ipython notebook. A Nuclear Schottky anomaly for any of the above ions can be computed in just three lines of Python code.
 
-
+### Citing PyNuclearSchottky
 If used in published work, please cite
 
 A. Scheie, “PyNuclearSchottky,” https://github.com/asche1/PyNuclearSchottky (2019)

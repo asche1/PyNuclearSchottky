@@ -109,7 +109,8 @@ class NuclearSchottky:
     
     def _jexp(self, orderedmoment, ion):
         gj = cef.LandeGFactor(ion)
-        return -0.5 + 0.5*np.sqrt(1+ 4*(orderedmoment/gj)**2)
+        return orderedmoment/gj
+        #return -0.5 + 0.5*np.sqrt(1+ 4*(orderedmoment/gj)**2)
 
         
     def _destringify(self, string):
